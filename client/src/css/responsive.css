@@ -1,0 +1,128 @@
+@media (max-width : 770px){
+    .container{
+        max-width: 100%;
+    }
+    .main-logo{
+        width: 11%;
+    }
+    .hero-sec{
+        width: 100%;
+    }
+    .singlePageWrapper,.margin-blog .blog-area{
+        grid-template-columns: 1fr;
+    }
+    .sidebar{
+        margin: 2rem 0;
+    }
+    figure{
+        width: 100%;
+    }
+    .footer-wrapper {
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+    footer .main{
+        border: 0;
+        margin-top: 2rem;
+        margin-bottom:3rem;
+    }
+    .recent-posts,.latest-posts{
+        padding-left: 0;
+        padding-right: 2rem;
+    }
+    .contact{
+        padding: 0;
+    }
+    .posts-section-footer{
+        place-items: center;
+    }
+    .admin-panel{
+        grid-template-columns: 1fr;
+    }
+    .admin-panel .right-bar{
+        margin: 1rem 0;
+    }
+    #publishBlog form{
+        width: 100%;
+    }
+    .team-img{
+        width: 100px;
+    }
+    .card-content{
+        padding: 0;
+        padding-bottom: 1rem;
+    }
+    .card-content p{
+        font-size: 10px;
+    }
+    .form-wrapper form{
+        width: 50%;
+    }
+}
+
+@media (max-width : 700px){
+    #header .logo{
+        order: -1;
+        padding: 1rem 0;
+    }
+    .nav-items{
+        flex-direction: column;
+        align-items: normal;
+    }
+    #header ul{
+        flex-direction: column;
+    }
+    #header .MuiSvgIcon-root{
+      display: block;
+      cursor: pointer;
+    }
+    .card-wrapper,.team-wrapper,.posts-section-footer,.blog-card .MuiPaper-root{
+        grid-template-columns: 1fr;
+    }
+    .card-wrapper .card{
+        margin-bottom: 2rem;
+    }
+    .card-wrapper .card:last-child{
+        margin-bottom: 0;
+    }
+    .form-wrapper form{
+        width: 100%;
+    }
+    .team-card{
+        border: 0;
+        border-bottom: 1px solid rgba(100, 100, 100, 0.219);
+    }
+    .card-content p{
+        font-size: inherit;
+    }
+    .team-img{
+        width: 123px;
+    }
+    .footer-wrapper .border{
+        border: 0;
+    }
+    .recent-posts, .latest-posts, .contact{
+        padding: 0;
+        margin-bottom: 3rem;
+    }
+    .contact{
+        margin-bottom: 0;
+    }
+    .MuiCardMedia-root{
+        max-width: 100%;
+        height: 300px;
+    }
+    .sec-head{
+        font-size: 25px;
+    }
+    .enable {
+        opacity: 1;
+        height: max-content;
+        transition:1s linear;
+      }
+      .disable {
+        opacity: 0;
+        height: 0;
+      }
+      
+}
